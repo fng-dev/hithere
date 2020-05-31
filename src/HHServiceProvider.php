@@ -9,7 +9,7 @@ class HHServiceProvider extends ServiceProvider
 
     public function boot()
     {
-        $this->loadMigrationsFrom(__DIR__ . '/migrations/2020_05_31_045105_create_table_hithere.php');
+        $this->loadMigrationsFrom(__DIR__ . '/migrations');
     }
     /**
      * Register any application services.
