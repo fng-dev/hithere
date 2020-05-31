@@ -1,0 +1,26 @@
+{
+    "name": "franco/hithere",
+    "description": "First Project",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Franco Nascimento",
+            "email": "fng.desenvolvedor@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Franco\\HiThere\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Franco\\HiThere\\HHServiceProvider"
+            ]
+        }
+    }
+}
